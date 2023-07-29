@@ -37,7 +37,7 @@ Following are the steps to run the application on `Docker`.
 
 - Build this application into a python:3.9 docker image using
 ```
-docker build -t ${curtstom_image_name} .
+docker build -t ${custom_image_name} .
 ```
 
 - Now that we have our image build we could just run it
@@ -45,8 +45,8 @@ on current shell or run the image in background/detach mode using:
 
 ```
 Run on current shell:
-docker run -p 8000:8000 ${curtstom_image_name}
+docker run -p 8000:8000 ${custom_image_name}
 
 Run on detach mode:
-docker run -d -p 8000:8000 ${curtstom_image_name}
+docker run -d -p 8000:8000 ${custom_image_name}
 ```
